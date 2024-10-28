@@ -1,0 +1,237 @@
+/* Defina um estilo global para o corpo da página */
+body {
+    background-color: #1a1a1a;
+    /* Fundo escuro */
+    color: #fff;
+    /* Texto branco */
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* Estilize o cabeçalho da página */
+header {
+    background-color: #333333;
+    /* Fundo escuro para o cabeçalho */
+    padding: 20px 0;
+    text-align: center;
+    border-radius: 10px;
+    /* Borda arredondada */
+}
+
+header h1 {
+    color: #ff8800;
+    /* Laranja para o título */
+}
+
+
+
+.navbar-nav .nav-link {
+    color: #fff;
+    /* Texto branco para os links da barra de navegação */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ff8800;
+    /* Laranja ao passar o mouse nos links da barra de navegação */
+}
+
+/* Estilize botões */
+.btn {
+    background-color: #ff8800;
+    /* Laranja para os botões */
+    color: #fff;
+    /* Texto branco para os botões */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    /* Borda arredondada */
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #ff6600;
+    /* Laranja um pouco mais escuro ao passar o mouse nos botões */
+    color: #fff;
+    /* Mantenha o texto branco ao passar o mouse nos botões */
+}
+
+/* Estilize a tabela */
+.table {
+    background-color: #333333;
+    /* Fundo escuro para a tabela */
+    color: #fff;
+    /* Texto branco na tabela */
+    border: 1px solid #555555;
+    /* Borda mais escura */
+
+}
+
+.table th {
+    background-color: #444444;
+    /* Fundo mais escuro para os cabeçalhos da tabela */
+    color: #bd7d34;
+    /* Texto branco para os cabeçalhos da tabela */
+}
+
+/* Estilize os links na tabela */
+.table a {
+    color: #ff8800;
+    /* Laranja para os links na tabela */
+    text-decoration: none;
+}
+
+.table a:hover {
+    color: #ff6600;
+    /* Laranja mais escura ao passar o mouse nos links da tabela */
+
+}
+
+/* Estilize o texto nas células da tabela para torná-lo mais visível */
+.table td {
+    color: #ffffff;
+    /* Texto preto para células da tabela */
+}
+
+#textbtn {
+    color: #fff;
+}
+
+h1 {
+    color: #ff8800;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+img {
+    margin: auto;
+    margin-left: 110px;
+}
+
+.navbar-brand {
+    margin: auto;
+    color: #fff;
+}
+
+.navbar-brand:hover {
+    color: #ff8800;
+}
+
+.perfil {
+
+    margin-right: 110px;
+    border-radius: 50%;
+}
+
+.foto {
+    width: 50px;
+    height: 50px;
+    margin: auto;
+}
+
+.btnsair {
+    background-color: #ff8800;
+    /* Laranja para os botões */
+    color: #fff;
+    /* Texto branco para os botões */
+    border: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    /* Borda arredondada */
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 10px;
+    float: right;
+    margin-left: 20px;
+}
+
+.btnsair:hover {
+    background-color: #ff6600;
+    /* Laranja um pouco mais escuro ao passar o mouse nos botões */
+    color: #fff;
+    /* Mantenha o texto branco ao passar o mouse nos botões */
+}
+
+.nome {
+    margin-right: 50px;
+    text-align: left;
+}
+
+/* Estilize a barra de navegação */
+#navbar {
+    background-color: #17171f;
+    /* Fundo escuro para a barra de navegação */
+}
+
+#container {
+    width: 1000px;
+    margin: auto;
+}
+
+#btnalt {
+    background-color: #00ff00;
+    color: #313131;
+
+}
+
+#btnexc {
+    background-color: #f04646;
+    color: #313131;
+}
+
+#btncanc {
+    background-color: #bbb2b2;
+    color: #313131;
+}
+
+#btnalt:hover {
+    background-color: #00cc00;
+    color: #313131;
+}
+
+#btnexc:hover {
+    background-color: #cc0000;
+    color: #313131;
+}
+
+#btncanc:hover {
+    background-color: #a8a8a8;
+    color: #313131;
+}
+
+#center {
+    text-align: center;
+}
+
+#cont {
+    margin: auto;
+    width: 460px;
+    background-color: #17171f;
+    height: 400px;
+    border-radius: 10px;
+    border: solid 2px #ff8800;
+    padding: 10px;
+    padding: 30px;
+}
+
+.form_control {
+    width: 100px;
+}
+
+#btnlog {
+    font-size: 12px;
+    margin: auto;
+}
+
+.cad {
+    margin-top: 10px;
+    float: right;
+    font-size: 12px;
+    color: #ff8800;
+}
+
+.cad:hover {
+    color: #b14801;
+}
